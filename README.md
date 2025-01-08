@@ -1,6 +1,6 @@
-# 🔮 Adivinhe
+# <img src="./public/icon.svg" width="30" align="center" /> Adivinhe
 
-Coloque suas habilidades de dedução à prova com **Adivinhe**, um jogo interativo desenvolvido em React. Enfrente o desafio de descobrir palavras ocultas a partir de dicas fornecidas, dentro de um limite de tentativas, enquanto se diverte com uma interface intuitiva e dinâmica.
+Coloque suas habilidades de dedução à prova com **Adivinhe**, um jogo interativo desenvolvido em React. Enfrente o desafio de descobrir palavras ocultas a partir de dicas fornecidas, dentro de um limite de tentativas, enquanto se diverte com uma interface intuitiva e dinâmica. 🔮
 
 ![Screenshot do Projeto](./public/screenshot.png)
 
@@ -61,6 +61,12 @@ Antes de começar, certifique-se de ter instalado em sua máquina:
    ```bash
    http://localhost:5173
    ```
+
+## 🌐 Teste o Jogo
+
+O deploy do projeto foi realizado na Vercel! Você pode jogar diretamente acessando o link abaixo:
+
+👉 [**Adivinhe na Vercel**](https://adivinhe-eight.vercel.app/)
 
 ---
 
