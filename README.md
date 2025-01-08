@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# 🔮 Adivinhe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Coloque suas habilidades de dedução à prova com **Adivinhe**, um jogo interativo desenvolvido em React. Enfrente o desafio de descobrir palavras ocultas a partir de dicas fornecidas, dentro de um limite de tentativas, enquanto se diverte com uma interface intuitiva e dinâmica.
 
-Currently, two official plugins are available:
+![Screenshot do Projeto](./public/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- ⚛️ **React**: Biblioteca para construção da interface do usuário.
+- 🟦 **TypeScript**: Superset do JavaScript, trazendo tipagem estática e maior segurança ao código.
+- ⚡ **Vite**: Ferramenta para desenvolvimento e build rápido de aplicações web.
+- 🎨 **CSS**: Estilização personalizada e responsiva.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ⚙️ Funcionalidades
 
-- Configure the top-level `parserOptions` property like this:
+- 🎲 Uma palavra aleatória é selecionada de um banco de palavras, juntamente com sua dica.
+- 🕹️ O jogador tem um limite de tentativas para adivinhar a palavra.
+- 📝 As letras já utilizadas aparecem em uma seção dedicada, facilitando o acompanhamento.
+- 🔀 Palavras aleatórias garantem variedade e desafio constante.
+- 💡 Estilização agradável e interface responsiva para uma melhor experiência de jogo.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## ✅ Pré-requisitos
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Antes de começar, certifique-se de ter instalado em sua máquina:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- ✅ **Node.js** (v16 ou superior)
+- ✅ **npm** ou **yarn**
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🚀 Como Rodar o Projeto
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/joschonarth/adivinhe.git
+   ```
+
+2. Acesse o diretório do projeto:
+
+   ```bash
+   cd adivinhe
+   ```
+
+3. Instale as dependências:
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+4. Inicie o servidor de desenvolvimento:
+
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+5. Acesse o jogo no navegador:
+
+   ```bash
+   http://localhost:5173
+   ```
+
+---
+
+🎮 Espero que você se divirta jogando **Adivinhe**! 🎮
