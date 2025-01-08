@@ -1,4 +1,4 @@
-# <img src="./public/icon.svg" width="30" align="center" /> Adivinhe
+# <img src="./public/icon.svg" width="35" align="center" /> Adivinhe
 
 Coloque suas habilidades de dedução à prova com **Adivinhe**, um jogo interativo desenvolvido em React. Enfrente o desafio de descobrir palavras ocultas a partir de dicas fornecidas, dentro de um limite de tentativas, enquanto se diverte com uma interface intuitiva e dinâmica. 🔮
 
